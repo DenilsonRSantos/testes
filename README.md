@@ -1,7 +1,3 @@
-# Next.js 15 + Testes (Jest + Testing Library)
-
-Aplicação simples de tarefas com foco em **Server Components**, **Client Components**, **hook personalizado** e **testes unitários** — com **CSS global** escuro moderno.
-
 ## Como rodar
 
 ```bash
