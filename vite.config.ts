@@ -9,3 +9,8 @@ export default defineConfig({
     globals: true
   }
 })
+// vite.config.ts
+// ✅ GARANTE que o Next ignore isso em produção
+if (process.env.NEXT_PHASE === 'production-build') {
+  throw new Error("vite.config.ts should not be loaded in Next build");
+}
